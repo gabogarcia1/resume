@@ -13,7 +13,7 @@ const Education = () => {
                     <div className="subheading mb-2">{language === 'en' ? 'Biomedical Engineering' : 'Ingeniería Biomédica'}</div>
                     <div>{language === 'en' ? 'Advanced student. Expected graduation: 2022' : 'Estudiante avanzado. Cursado completo. Perspectiva de graduación: 2022'}</div>
                 </div>
-                <div className="flex-shrink-0"><span className="text-primary">{language === 'en' ? '2014-present' : '2014-presente'}</span></div>
+                <div className="flex-shrink-0"><span className="text-primary">{language === 'en' ? '2015-present' : '2015-presente'}</span></div>
             </div>
             <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
                 <div className="flex-grow-1">
@@ -31,10 +31,10 @@ const Education = () => {
             </div>
             <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
                 <div className="flex-grow-1">
-                    <h3 className="mb-0">Arkmeds - Soluções para Engenharia Clínica</h3>
-                    <div className="subheading mb-3">{language === 'en' ? 'Course: "Nociones de mantenimiento del ventilador pulmonar"' : 'Curso: "Nociones de mantenimiento del ventilador pulmonar"'}</div>
+                    <h3 className="mb-0">DevPlace Tech Academy</h3>
+                    <div className="subheading mb-3">{language === 'en' ? 'Course: "Back End: C# Course"' : 'Curso: "Back End: C# Course"'}</div>
                 </div>
-                <div className="flex-shrink-0"><span className="text-primary">2020</span></div>
+                <div className="flex-shrink-0"><span className="text-primary">2021</span></div>
             </div>
         </div>
     )
