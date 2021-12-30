@@ -9,11 +9,11 @@ const Experience = () => {
                 <h2 className='seccion-title mb-5'>{language==='en'?'Experience':'Experiencia'}</h2>
                 <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div className="flex-grow-1">
-                        <h3 className="mb-0">{language==='en'?'Full stack developer':'Desarrollador Full Stack'}</h3>
-                        <div className="subheading mb-2">PIXELADAS.ES</div>
-                        <div>{language==='en'?"API's and Backend development in Node JS, and frontend app's development in React and Angular. Reference: Daniel Infante Muñoz ":' Desarrollo de Backends y APIs en Node JS, y de aplicaciones de Frontend en React JS y en Angular. Referencia: Daniel Infante Muñoz'}</div>
+                        <h3 className="mb-0">{language==='en'?'QA Engineer':'QA Engineer'}</h3>
+                        <div className="subheading mb-2">SOVOS</div>
+                        <div>{language==='en'?"Funtional Testing – Azure Test plans – JIRA - SQL Server, SOAP UI & POSTMAN ":' Funtional Testing – Azure Test plans – JIRA - SQL Server, SOAP UI & POSTMAN'}</div>
                     </div>
-                    <div className="flex-shrink-0"><span className="text-primary">2021 - {language==='en'?'present':'presente'}</span></div>
+                    <div className="flex-shrink-0"><span className="text-primary">Jul 2021 - {language==='en'?'present':'presente'}</span></div>
                 </div>
                 <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div className="flex-grow-1">
@@ -21,12 +21,12 @@ const Experience = () => {
                         <div className="subheading mb-2">Facultad de Ciencias Exactas y Tecnología · UNT · {language==='en'?'Chair: "Electrónica I':' Cátedra: "Electrónica I"'}</div>
                         <div>{language==='en'?'In charge of giving classes in the electronics laboratory, where the practical application of the subject is taught ':' A cargo del dictado de clases en el laboratorio de electrónica, donde se enseña la aplicación práctica de la materia.'}</div>
                     </div>
-                    <div className="flex-shrink-0"><span className="text-primary">2019 - {language==='en'?'present':'presente'}</span></div>
+                    <div className="flex-shrink-0"><span className="text-primary">Jul 2019 - Aug 2021</span></div>
                 </div>
                 <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div className="flex-grow-1">
                         <h3 className="mb-0">{language==='en'?'Student intern':'Pasantía estudiantil'}</h3>
-                        <div className="subheading mb-2">Instituto de Maternidad y Ginecología "Nuestra Señora de las Mercedes"</div>
+                        <div className="subheading mb-2"> {language==='en'?'Department of Engineering in "Sanatorio 9 de Julio" Hospital ':'Departamento de Ingenieria en Sanatorio 9 de Julio'}</div>
                         <div>{language==='en'?"Management of the institution's health technologies. Preventive and corrective maintenance of medical devices":'Gestión de las tecnologías sanitarias de la institución. Mantenimiento preventivo y correctivo de dispositivos médicos'}</div>
                     </div>
                     <div className="flex-shrink-0"><span className="text-primary">2020</span></div>
