@@ -16,10 +16,10 @@ function App() {
         <div className='main-container'>
         <Menu/>
         <Routes>
-          <Route exact path='/' component={AboutMe}/>
-          <Route exact path='/education' component={Education}/>
-          <Route exact path='/experience' component={Experience}/>
-          <Route exact path='/skills' component={Skills}/>
+          <Route exact path='/' element={<AboutMe/>}/>
+          <Route exact path='/education' element={<Education/>}/>
+          <Route exact path='/experience' element={<Experience/>}/>
+          <Route exact path='/skills' element={<Skills/>}/>
         </Routes>
         </div>
         </LanguageProvider>
