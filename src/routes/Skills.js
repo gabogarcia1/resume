@@ -47,12 +47,13 @@ const Skills = () => {
             <div className="subheading mb-2">{language==='en'?'Languages':'Idiomas'}</div>
             <ul className='u-list'>
                 <li className=''><FaCheck/> {language==='en'?'Spanish (native)':'Español (nativo)'}</li>
-                <li className=''><FaCheck/> {language==='en'?'English (intermediate)':'Ingles (intermedio)'}</li>
+                <li className=''><FaCheck/> {language==='en'?'English (fluent)':'Ingles (fluido)'}</li>
             </ul>
             <div className="subheading mb-2">{language==='en'?'Other skills':'Otras habilidades'}</div>
             <ul className='u-list'>
                 <li className=''><FaCheck/> {language==='en'?'C Programming (microcontroled systems)':'Programación en C (sistemas microcontrolados)'}</li>
                 <li className=''><FaCheck/> {language==='en'?'Matlab (data analysis & signal processing)':'Matlab (analisis de datos y procesamiento de señales)'}</li>
+                <li className=''><FaCheck/> {language==='en'?'Matlab (data analysis & signal processing)':'Matlab (analisis de datos y procesamiento de señales)'}</li> 
                 <li className=''><FaCheck/> Microsoft Office</li>
             </ul>
         </div>
