@@ -38,6 +38,7 @@ const Skills = () => {
                 <li className='dev-icon d-flex flex-column align-items-center'><FaBitbucket/><span className='dev-icon-name'>BIT BUCKET</span></li>
                 <li className='dev-icon d-flex flex-column align-items-center'><FaTrello/><span className='dev-icon-name'>TRELLO</span></li>
                 <li className='dev-icon d-flex flex-column align-items-center'><FaJira/><span className='dev-icon-name'>JIRA</span></li>
+
             </ul>
             <div className="subheading mb-2">{language==='en'?'Workflow':'Flujo de trabajo'}</div>
             <ul className='u-list'>
@@ -52,9 +53,13 @@ const Skills = () => {
             <div className="subheading mb-2">{language==='en'?'Other skills':'Otras habilidades'}</div>
             <ul className='u-list'>
                 <li className=''><FaCheck/> {language==='en'?'C Programming (microcontroled systems)':'Programación en C (sistemas microcontrolados)'}</li>
+                <li className=''><FaCheck/> {language==='en'?'C# Fundamentals':'C#'}</li>
+                <li className=''><FaCheck/> {language==='en'?'Postman':'Postman'}</li>
+                <li className=''><FaCheck/> {language==='en'?'SOAP UI':'SOAP UI'}</li>
                 <li className=''><FaCheck/> {language==='en'?'Matlab (data analysis & signal processing)':'Matlab (analisis de datos y procesamiento de señales)'}</li>
-                <li className=''><FaCheck/> {language==='en'?'Matlab (data analysis & signal processing)':'Matlab (analisis de datos y procesamiento de señales)'}</li> 
-                <li className=''><FaCheck/> Microsoft Office</li>
+                <li className=''><FaCheck/> {language==='en'?'SQL queries':'SQL queries'}</li> 
+                <li className=''><FaCheck/> {language==='en'?'Fluent English Speaker': 'Ingles Fluido'}</li> 
+                <li className=''><FaCheck/> {language==='en'?'Microsoft Office - Specially Excel': 'Microsoft Office - Especialmente Excel'}</li>
             </ul>
         </div>
     )

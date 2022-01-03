@@ -11,9 +11,17 @@ const Education = () => {
                 <div className="flex-grow-1">
                     <h3 className="mb-0">Facultad de Ciencias Exactas y Tecnología · UNT</h3>
                     <div className="subheading mb-2">{language === 'en' ? 'Biomedical Engineering' : 'Ingeniería Biomédica'}</div>
-                    <div>{language === 'en' ? 'Advanced student. Expected graduation: 2022' : 'Estudiante avanzado. Cursado completo. Perspectiva de graduación: 2022'}</div>
+                    <div>{language === 'en' ? 'Advanced student 98% finished. Expected graduation: 2022' : 'Estudiante avanzado - 98% . Cursado completo. Perspectiva de graduación: 2022'}</div>
                 </div>
                 <div className="flex-shrink-0"><span className="text-primary">{language === 'en' ? '2015-present' : '2015-presente'}</span></div>
+            </div>
+            <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
+                <div className="flex-grow-1">
+                    <h3 className="mb-0">Facultad de Ciencias Exactas y Tecnología · UNT</h3>
+                    <div className="subheading mb-2">{language === 'en' ? 'Electronic Engineering' : 'Ingeniería Electronica'}</div>
+                    <div>{language === 'en' ? 'Advanced student. Expected graduation: 2023' : 'Estudiante avanzado. Cursado completo. Perspectiva de graduación: 2022'}</div>
+                </div>
+                <div className="flex-shrink-0"><span className="text-primary">{language === 'en' ? '2020-present' : '2020-presente'}</span></div>
             </div>
             <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
                 <div className="flex-grow-1">

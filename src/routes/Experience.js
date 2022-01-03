@@ -57,7 +57,7 @@ const Experience = () => {
               : "SI.PRO.SA - Proyecto de investigacion"}</div>
           <div>
             {language === "en"
-              ? "Early detection of respiratory failure using continuous monitoring of O2 saturation in patients affected by COVID-19¨|"
+              ? "Early detection of respiratory failure using continuous monitoring of O2 saturation in patients affected by COVID-19¨"
               : "DETECCIÓN TEMPRANA DE FALLA RESPIRATORIA UTILIZANDO MONITOREO TELEMÉTRICO CONTINUO DE LA SATURACIÓN DE 02 EN PACIENTES AFECTADOS DE COVID"}
           </div>
         </div>
@@ -125,7 +125,7 @@ const Experience = () => {
           <span className="text-primary">Jul' 2019 - Nov' 2021</span>
         </div>
       </div>
-      <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
+      {/* <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
         <div className="flex-grow-1">
           <h3 className="mb-0">
             {language === "en" ? "Small projects" : "Proyectos pequeños"}
@@ -163,7 +163,7 @@ const Experience = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
