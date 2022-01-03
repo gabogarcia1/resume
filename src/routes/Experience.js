@@ -50,6 +50,26 @@ const Experience = () => {
       <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
         <div className="flex-grow-1">
           <h3 className="mb-0">
+            {language === "en" ? "Data Analysis using MatLab" : "Analisis de datos usando MatLab"}
+          </h3>
+          <div className="subheading mb-2">{language === "en"
+              ? "SI.PRO.SA – Research Project"
+              : "SI.PRO.SA - Proyecto de investigacion"}</div>
+          <div>
+            {language === "en"
+              ? "Early detection of respiratory failure using continuous monitoring of O2 saturation in patients affected by COVID-19¨|"
+              : "DETECCIÓN TEMPRANA DE FALLA RESPIRATORIA UTILIZANDO MONITOREO TELEMÉTRICO CONTINUO DE LA SATURACIÓN DE 02 EN PACIENTES AFECTADOS DE COVID"}
+          </div>
+        </div>
+        <div className="flex-shrink-0">
+          <span className="text-primary">
+            Jul' 2020 - Jul' 2021
+          </span>
+        </div>
+      </div>
+      <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
+        <div className="flex-grow-1">
+          <h3 className="mb-0">
             {language === "en" ? "Assistant professor" : "Ayudante estudiantil"}
           </h3>
           <div className="subheading mb-2">
