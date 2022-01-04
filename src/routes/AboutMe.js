@@ -13,6 +13,7 @@ const AboutMe = () => {
         <h1 className="name">
           Gabriel<span className="important">Garcia</span>
         </h1>
+
         <div className="image-container2">
           <img
             src={profileImage}
@@ -27,6 +28,9 @@ const AboutMe = () => {
           gabegarcia916@gmail.com
         </a>
       </div>
+      <h3>
+          <span className="important">QA ENGINEER</span>
+        </h3>
       <p className="description">
         {language === "en"
           ? "My name is Gabriel and I am a former Rotary Youth Exchange student, spent a year in Maryland, USA. Where I finished my junior year in high school and was part of the Cross Country, indoor track and outdoor track teams. When I came back Argentina I started college and became a Biomedical Engineering student. On the third year of my career I started programming PIC microcontrollers using a C lenguage, after that, I started coding in MatLab (data analysis and signal processing) and arduinos. In 2020, I started programming PLC,VHDL (for FPGA's),C++ and also started studying to become a Full Stack Developer (Front-end and Back-end),HTML, CSS, BOOTSTRAP, JAVASCRIPT and REACT. My goals are to finish my career and to improve myself professionally in the software development field. I'm active,sociable, great at public speaking,easy to adapt to groups and situations, fluent in english and spanish, ready to face any challenge that comes ahead."
